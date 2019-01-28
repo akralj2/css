@@ -5,10 +5,30 @@ selector {
     property: value;
     anotherProperty: value;
 }
+*/
 
 h1 {
-  color: red;
-  font-size: 50px;
+  color: #ff0000;
+  /* border-color: black;
+  border-width: 5px;
+  border-style: solid; */
+  border: 2px solid black;
 }
 
-*/
+h2 {
+  color: rgb(255, 20, 90);
+}
+
+h3  {
+  color: rgba(255, 40, 70, 0.5);
+}
+
+h4 {
+  background: rgb(255,100, 80);
+}
+
+body {
+  /* background: url(link_to_image);
+  background-repeat: no-repeat;
+  background-size: cover;*/
+}
