@@ -1,17 +1,15 @@
 
-/*
-
+/*  - BASICS -
 selector {
     property: value;
     anotherProperty: value;
 }
-*/
 
 h1 {
   color: #ff0000;
-  /* border-color: black;
+  border-color: black;
   border-width: 5px;
-  border-style: solid; */
+  border-style: solid;
   border: 2px solid black;
 }
 
@@ -28,7 +26,19 @@ h4 {
 }
 
 body {
-  /* background: url(link_to_image);
+  background: url(link_to_image);
   background-repeat: no-repeat;
-  background-size: cover;*/
+  background-size: cover;
+}
+----------------------------------------------- */
+
+/*  - SELECTORS -  */
+/* id="special"  - only one ID per page
+
+
+*/
+
+
+#special {
+  border: 2px solid black;
 }
