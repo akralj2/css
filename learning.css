@@ -32,12 +32,19 @@ body {
 }
 ----------------------------------------------- */
 
-/*  - SELECTORS -  */
-/* id="special"  - only one ID per page
+/*  --- SELECTORS ---  */
+/*
+  id="special"  #special- only one ID per page - for individual elements
+
+  class="highlight"  .highlight - for any number of elements on the page
 
 
 */
 
+.highlight {
+  background-color: yellow;
+  text-decoration: line-through;
+}
 
 #special {
   border: 2px solid black;
