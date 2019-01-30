@@ -54,16 +54,46 @@ li {
   border: 2px solid black;
 }
 
- -- Star -- selects everything on the page *
+ -- Star --
+ selects everything on the page *
  *{
  border: 1px solid red;
 }
 
- -- Descendant Selector -- takes two or more tage names or selectors and chains them together
-  selects every a which is in li, others not!!
+ -- Descendant Selector --
+takes two or more tage names or selectors and chains them together
+
+selects every a which is in li, others not!!:
 li a {
   color: green;
 }
+
+ -- Adjacent Selector --
+ selects elements that come after other elements (not nested but a sibling)
+
+ all ul which come after h4 (not nested inside):
+ h4 + ul{
+ border: 3px solid green;
+}
+
+ -- Atribute Selector --
+ selects elements based of on any attribte
+
+all href´s to google:
+a[href="http://www.google.com"] {
+ border: 3px solid green;
+}
+..or..
+all input´s with type="text":
+input[type="text"] {
+  border: 4px solid red;
+}
+
+ -- nth of type --
+
+
+
+
 
 
 
