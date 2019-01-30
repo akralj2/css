@@ -104,10 +104,24 @@ li:nth-of-type(even){
 
 */
 
-/*  ----  ---- */
+/*  ---- SPECIFICITY ---- */
+/* the closest (last) style wins :-)
+Selector strength:
+  1. // ID Selectors
+    #special {}
 
-/*  -----  ----- */
+  2. // Class, Attribute, Pseudo-Class Selectors //
+    .header {}
 
-/*  ------  ------ */
+    input[type="text"] {}
 
-/*  -------  ------- */
+    a:hover {}
+    input:checked{}
+
+
+  3. // Type Selectors //
+    li {}
+    li a {}
+    li + a {}
+
+*/
