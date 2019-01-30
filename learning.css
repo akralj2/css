@@ -32,35 +32,35 @@ body {
 }
 ----------------------------------------------- */
 
-/*  --- SELECTORS ---  */
+/*  -- SELECTORS --  */
 /*
   id="special"  #special- only one ID per page - for individual elements
 
   class="highlight"  .highlight - for any number of elements on the page
 
---  Elements --
+----  Elements ----
 li {
   color: green;
 }
 
- -- Class --
+ ---- Class ----
  .highlight {
   background-color: yellow;
   text-decoration: line-through;
 }
 
- -- id --
+ ---- id ----
 #special {
   border: 2px solid black;
 }
 
- -- Star --
+ ---- Star ----
  selects everything on the page *
  *{
  border: 1px solid red;
 }
 
- -- Descendant Selector --
+ ---- Descendant Selector ----
 takes two or more tage names or selectors and chains them together
 
 selects every a which is in li, others not!!:
@@ -68,7 +68,7 @@ li a {
   color: green;
 }
 
- -- Adjacent Selector --
+ ---- Adjacent Selector ----
  selects elements that come after other elements (not nested but a sibling)
 
  all ul which come after h4 (not nested inside):
@@ -76,7 +76,7 @@ li a {
  border: 3px solid green;
 }
 
- -- Atribute Selector --
+ ---- Atribute Selector ----
  selects elements based of on any attribte
 
 all href´s to google:
@@ -89,7 +89,7 @@ input[type="text"] {
   border: 4px solid red;
 }
 
- -- nth of type --
+ ---- nth of type ----
  selects second, third, fifth, .... element, not every first, second, ..!!
 
  every third ul:
@@ -102,23 +102,12 @@ li:nth-of-type(even){
  border: 4px solid red;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 */
+
+/*  ----  ---- */
+
+/*  -----  ----- */
+
+/*  ------  ------ */
+
+/*  -------  ------- */
