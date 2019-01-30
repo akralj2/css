@@ -38,14 +38,46 @@ body {
 
   class="highlight"  .highlight - for any number of elements on the page
 
+--  Elements --
+li {
+  color: green;
+}
 
-*/
-
-.highlight {
+ -- Class --
+ .highlight {
   background-color: yellow;
   text-decoration: line-through;
 }
 
+ -- id --
 #special {
   border: 2px solid black;
 }
+
+ -- Star -- selects everything on the page *
+ *{
+ border: 1px solid red;
+}
+
+ -- Descendant Selector -- takes two or more tage names or selectors and chains them together
+  selects every a which is in li, others not!!
+li a {
+  color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
