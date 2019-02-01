@@ -1,3 +1,5 @@
+body {
+  background-color: gray;
 
 /*  - BASICS -
 selector {
@@ -127,49 +129,44 @@ Selector strength:
 */
 
 /*  ----- TEXT and FONTS ----- */
-  /* font-family  */
-  /* */
-  
-  body {
-    background-color: gray;
-  }
-   p{
-     font-family: 'Spectral', serif;
-    }
-   h1{
-      font-family: 'Roboto', sans-serif;
-     }
+    /* font-family //
+     p{
+       font-family: 'Spectral', serif;
+      }
+     h1{
+        font-family: 'Roboto', sans-serif;
+       }
 
-    /* font-size */
-    h1 {
-      font-size: 50px;
-    }
-    span {
-      font-size: 2.0em;
-    }
+    // font-size //
+      h1 {
+        font-size: 50px;
+      }
+      span {
+        font-size: 2.0em;
+      }
 
-    /* font-weight  */ /*how bold ol light the text is, numeric 100-800*/
-    p {
-      font-weight: bold;
-    }
+     // font-weight // // how bold ol light the text is, numeric 100-800 //
+      p {
+        font-weight: bold;
+      }
 
-    /* line-hight */ /*controls the hight of a given line*/
-    p {
-      line-height: 1.2;
-    }
+      // line-hight // // controls the hight of a given line //
+      p {
+        line-height: 1.2;
+      }
 
-    /* text-align */ /*controls is the text aligned*/
-    h1 {
-      text-align: right;
-    }
-    p {
-      text-align: center;
-    }
+      // text-align // // controls is the text aligned //
+      h1 {
+        text-align: right;
+      }
+      p {
+        text-align: center;
+      }
 
-    /* text-decoration */ /*used to give text an underline, overline, strike-through effect..*/
-    p {
-      text-decoration: underline;
-    }
-    h1 {
-      text-decoration: line-through;
-    }
+      // text-decoration // // used to give text an underline, overline, strike-through effect.. //
+      p {
+        text-decoration: underline;
+      }
+      h1 {
+        text-decoration: line-through;
+      } */
