@@ -1,5 +1,6 @@
 body {
   background-color: gray;
+}
 
 /*  - BASICS -
 selector {
@@ -170,3 +171,30 @@ Selector strength:
       h1 {
         text-decoration: line-through;
       } */
+
+/*  ------ THE BOX MODEL ------ */
+/*  padding - space on the inside of the border - between the element (content)
+              and the border
+    margin -  space on the outside of the border - between the border and other
+              elements (content). Adds spacing between elements.
+*/
+p {
+/* Content - Width and Hight */
+  width: 50%;         /* % of parenth element */
+  height: 30px;
+
+
+/* Border */
+ border: 2px solid yellow;
+
+
+/* Padding */
+  /* padding: 10px; */
+  padding: 20px 40px 20px 40px;  /* clockwise from the top */
+
+/* Margin */
+  /* margin: 100px;
+  margin-left: 50px;
+  margin: 20px 40px 20px 40px; */
+  margin: 20px auto;
+  }
