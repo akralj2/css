@@ -128,14 +128,16 @@ Selector strength:
 
 /*  ----- TEXT and FONTS ----- */
   /* font-family  */
+  /* */
+  
   body {
     background-color: gray;
   }
    p{
-     font-family: "Arial";
+     font-family: 'Spectral', serif;
     }
    h1{
-      font-family: "Georgia";
+      font-family: 'Roboto', sans-serif;
      }
 
     /* font-size */
