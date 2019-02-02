@@ -1,6 +1,6 @@
-body {
+/* body {
   background-color: gray;
-}
+} */
 
 /*  - BASICS -
 selector {
@@ -177,24 +177,50 @@ Selector strength:
               and the border
     margin -  space on the outside of the border - between the border and other
               elements (content). Adds spacing between elements.
-*/
-p {
-/* Content - Width and Hight */
-  width: 50%;         /* % of parenth element */
-  height: 30px;
+  BASICS
+  p {
+  --- Content - Width and Hight ---
+    width: 50%;         --- % of parenth element ---
+    height: 30px;
 
+  --- Border ---
+  border: 2px solid yellow;
 
-/* Border */
- border: 2px solid yellow;
+  --- Padding ---
+  padding: 10px;
+  padding: 20px 40px 20px 40px;  --- clockwise from the top ---
 
-
-/* Padding */
-  /* padding: 10px; */
-  padding: 20px 40px 20px 40px;  /* clockwise from the top */
-
-/* Margin */
-  /* margin: 100px;
+  --- Margin ---
+  margin: 100px;
   margin-left: 50px;
-  margin: 20px 40px 20px 40px; */
+  margin: 20px 40px 20px 40px;
   margin: 20px auto;
+   }
+
+  --- Tic Tac Toe ---
+  table {
+  margin: auto;}
+
+  #ttt {
+  text-align: center;
+  font-size: 2em;
+  font-weight: 600;
   }
+
+  td {
+  width: 100px;
+  height: 100px;
+  }
+
+  .vertical {
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  }
+
+  .horizontal {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  }
+  */
+
+  /* --- Photo Gallery Grid --- */
