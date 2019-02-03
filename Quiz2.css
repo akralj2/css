@@ -1,0 +1,35 @@
+
+/* border color: #bdc3c7
+   date color: #3498db
+   h2 color: #2c3e50
+
+   font: source sans pro google fonts
+
+   hr styles
+*/
+
+body {
+  width: 60%;
+  margin: auto;
+  border: 20px solid #bdc3c7;
+  margin-top: 10px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+p, h2 {
+  margin-left: 2%;
+}
+
+h2 {
+  color: #2c3e50;
+}
+
+.date {
+  color: #3498db;
+  letter-spacing: 2px;
+}
+
+.firstParagraph {
+  border-left: 4px solid #bdc3c7;
+  padding-left: 2px;
+}
